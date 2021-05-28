@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { Router, Route, Switch } from 'react-router';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Router>
     <App />
-  </React.StrictMode>,
+  </Router>,
   document.getElementById('root')
 );
